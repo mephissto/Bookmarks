@@ -1,0 +1,12 @@
+<div ng-click="load()">Load()</div>
+
+<div ng-repeat="category in categories">
+    - {{category.title}}
+    <div ng-show="category.children">
+        <div ng-repeat="child in category.children">
+            &nbsp;&nbsp;&nbsp;&nbsp;_ {{child.title}}
+        </div>
+    </div>
+</div>
+
+

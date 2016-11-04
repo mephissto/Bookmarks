@@ -1,0 +1,10 @@
+{
+  "name": "Bookmark",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Mephissto's Bookmark",
+  "devDependencies": {
+    "bower": "^1.7.7"
+  },
+  "dependencies": {}
+}
